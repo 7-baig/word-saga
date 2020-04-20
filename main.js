@@ -38,12 +38,12 @@ const displaySuggestions = (event) => {
     // generates random number for images's array
     const randomNum = Math.floor(Math.random() * 5);
     // images path
-    let cartoon1 = '/images/cartoon1.png';
-    let cartoon2 = '/images/cartoon2.png';
-    let cartoon3 = '/images/cartoon3.png';
-    let cartoon5 = '/images/cartoon5.png';
-    let cartoon6 = '/images/cartoon6.png';
-    let cartoon7 = '/images/cartoon7.png';
+    let cartoon1 = './images/cartoon1.png';
+    let cartoon2 = './images/cartoon2.png';
+    let cartoon3 = './images/cartoon3.png';
+    let cartoon5 = './images/cartoon5.png';
+    let cartoon6 = './images/cartoon6.png';
+    let cartoon7 = './images/cartoon7.png';
     // array of images
     let cartoonArray = [cartoon1, cartoon2, cartoon3, cartoon6, cartoon5, cartoon7];
     // generate random image
