@@ -15,7 +15,7 @@ const againBtn = document.getElementById('again');
 const getSuggestions = () => {
 const wordQuery = userInput.value;
 const endpoint = `${url}${queryParam}${wordQuery}`;
-const xhr = new XMLHttpRequest;
+const xhr = new XMLHttpRequest();
 xhr.responseType = 'json';
 xhr.onreadystatechange = () => {
     if(xhr.readyState === XMLHttpRequest.DONE) {
