@@ -1,0 +1,93 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+body {
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #53A1C6;
+}
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 85%;
+    width: 80%;
+    background-color: rgb(253, 168, 168);
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.226);
+}
+h1 {
+    padding: 0%;
+    margin: 0%;
+    margin-top: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2.2em;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.226);
+}
+.para {
+    padding: 0%;
+    margin: 0%;
+    margin-top: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2em;
+}
+#container {
+    padding: 0%;
+    margin: 0%;
+    margin-top: 25px;
+    display: block;
+}
+#userInput {
+    padding: 0%;
+    padding-left: 5px;
+    margin: 0%;
+    width: 350px;
+    height: 25px;
+    font-size: 1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
+}
+.button {
+    padding: 0%;
+    margin: 0%;
+    height: 30px;
+    width: 50px;
+    font-size: 1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(21, 146, 204);
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: #53A1C6;
+    color: #ffffff;
+}
+#again {
+    display: none;
+    margin-top: 20px;
+}
+#wordsContainer {
+    border-bottom: 1px solid black;
+    display: none;
+
+}
+.list {
+    list-style: none;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5em;
+    color: darkslategray;
+    margin-top: 10px;
+    display: block;
+}
+#image {
+    height: 200px;
+    margin-top: 30px;
+    display: block;
+}
